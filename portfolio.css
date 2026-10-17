@@ -1,0 +1,103 @@
+body {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+    justify-content: center;
+}
+header {
+    background-color: #f8cccc;
+    padding: 30px 20px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10%;
+}
+header h1 {
+    width: 100%;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img {
+    max-width: 10%;
+    bottom: 100%;
+}
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background-color: aliceblue;
+    border-radius: 24px;
+    width: 20%;
+}
+.container {
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: self-start;
+}
+footer {
+    padding-top: 5%;
+    background-color: rgb(72, 183, 197);
+    text-align: center;
+}
+img {
+    max-width: 20%;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    gap: 2px;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 24px;
+}
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-block: 10px;
+}
+
+.links img {
+    max-width: 15%;
+}
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gijima {
+    display: flex;
+    justify-content:space-around;
+}
+video {
+    max-width: 40%;
+    border-style: solid;   
+}
+details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.myself {
+    text-align: justify;
+}
